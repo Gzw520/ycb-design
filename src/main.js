@@ -15,6 +15,11 @@ import VueAreaLinkage from 'vue-area-linkage';
 Vue.use(VueAreaLinkage)
 
 
+import 'vue-social-share/dist/client.css';
+import Share from 'vue-social-share'
+Vue.use(Share);
+
+
 import VueGnComponents from "vue-gn-components";
 import "vue-gn-components/lib/style/index.css";
 Vue.use(VueGnComponents)
